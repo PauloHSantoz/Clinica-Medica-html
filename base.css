@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #00383a;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 2000px;
+    display: flex;
+    margin: 0 ;
+    background-color: #00383a;
+    
+}
+.main {
+    display:flex;
+    flex-flow: column;
+    width: 85%;
+    margin-left: 250px;
+    padding: 10px 10px;
+}
+.menu {
+    width: 220px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    overflow: hidden;
+    margin: 1%;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+
+.header {
+    background-color: white;
+    height: auto;
+}
+.content {
+    background-color: rgb(255, 255, 255);
+    min-height: auto;
+    padding: 20px;
+    
+    
+}
+.footer { 
+    background-color: rgb(8, 58, 197);
+    min-height: 120px;
+    text-align: center;
+    display: block;
+}
+.myDiv { 
+    text-align: center; 
+
+}
+.myContainer {
+    display: flex;
+    width: 100%;
+}
+.myContainer > div {
+    width: 30%;
+}
+.myImg {
+    text-align: center;
+}
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: auto;
+    font-size: auto;
+    cursor: pointer;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #ffffffb6;
+    min-width: auto;
+    box-shadow:rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color:rgb(8, 58, 197);
+}

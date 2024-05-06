@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<style>
+
+ input[type= text]{ 
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    resize: vertical;
+ }
+ label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+ }
+ button[type=submit]{
+    background-color: #45a049c4;
+ }
+ button[type=reset]{
+    background-color: rgba(255, 0, 0, 0.664);
+ }
+ .container{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+ }
+
+</style>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="paginaInicial..html">HOME</a></li>
+                <li><a href="#">CONSULTAS</a></li>
+                <li><a href="#">EXAMES</a></li>
+                <li><a href="contato.html">CONTATOS</a></li>
+                <div class="dropdown">
+                <li><a href="#" class="dropBtn">ESPECIALIDADES</a></li>
+                 <div class="dropdown-content">
+                     <li><a href="#">CARDIOLOGIA</a></li>
+                     <li><a href="#">CIRURGIA GERAL</a></li>
+                     <li><a href="#">CIRURGIA VASCULAR</a></li>
+                     <li><a href="#">DERMATOLOGIA</a></li>
+                     <li><a href="#">FISIOTERAPIA</a></li>
+                     <li><a href="#">PEDIATRIA</a></li>
+                     <li><a href="#">NEUROLOGIA GERAL</a></li>
+
+                 </div>
+               </div>    
+            </ul>
+        </div>
+
+        <div class="main">
+            <!-- Aqui vai o seu header -->
+            <div class="Header">
+                <div class="myImg">
+                    <img src="https://www.ozai.com.br/wp-content/uploads/2019/02/clinica-medica-768x384.jpg" alt="Imagem referente a os contatos e agendamentos com médicos">
+                </div>
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <div class="container">
+                <form action="####" method="post" >
+                    <fieldset>
+                     <legend> <b>Formulário de Contato</b></legend>   
+                        <label type="text"> Nome Completo: </label> <br>
+                        <input type="text" id="nome"><br>
+                        <label type="email"> E-mail:</label><br>
+                        <input type="text" id="email"><br>
+                        <label type="text"> Assunto:</label><br>
+                        <input type="text" id="assunto"><br>
+                        <label type="text"> Menssagem:</label><br>
+                        <textarea name="Mensagem" id=""></textarea><br><br>
+                        <button type="submit" onclick="alert('Enviado com Sucesso!')"> Enviar</button>
+                        <button type="reset"> Redefinir</button>
+                    </fieldset>
+                </form>
+                </div>
+                <ul>
+                    <li><h3>Telefone de Contato:</h3></li>
+                    <h3>(11)9999-8888</h3><hr>
+                    <li><h3>Endereço:</h3></li>
+                    <h3> Av. _____, 1500, Itaim Bibi, São Paulo-SP</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14626.256224202063!2d-46.691428510338135!3d-23.584095609127907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5742bc832a29%3A0xa9323f13433864db!2sItaim%20Bibi%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1715006451567!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </ul>
+            </div>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                    <div class="myContainer">
+                        <div>
+                            <a style="color: rgb(255, 255, 255);" href="sobreClinica.html"title="Sobre nós"> SOBRE NÓS</a>
+                        </div>
+                        <div>
+                            <a style="color: rgb(255, 255, 255);" href="atendimento.html"title="Atendimentos"> HORÁRIOS DE ATENDIMENTOS</a>
+                        </div> 
+                        <div>
+                            <a style="color:  rgb(255, 255, 255);" href="contato.html"title="Contatos"> CONTATOS</a>
+                        </div>
+                    </div>     
+            </div>
+        </div>
+    </div>
+</body>
+</html>
